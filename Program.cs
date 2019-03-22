@@ -29,6 +29,9 @@ namespace GiveMe
 
             // Luego de haber escogido la configuracion deseada por el usuario a traves de los parametros leemos el archivo.
             reader.Read();
+            reader.ShowProcessedCode();
+            reader.DeleteSpacesAndComments();
+            reader.ShowProcessedCode();
         }
         static void Main(string[] args)
         { 
