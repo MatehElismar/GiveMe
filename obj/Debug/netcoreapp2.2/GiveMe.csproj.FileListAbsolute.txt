@@ -1,0 +1,11 @@
+C:\dev\GiveMe\bin\Debug\netcoreapp2.2\GiveMe.deps.json
+C:\dev\GiveMe\bin\Debug\netcoreapp2.2\GiveMe.runtimeconfig.json
+C:\dev\GiveMe\bin\Debug\netcoreapp2.2\GiveMe.runtimeconfig.dev.json
+C:\dev\GiveMe\bin\Debug\netcoreapp2.2\GiveMe.dll
+C:\dev\GiveMe\bin\Debug\netcoreapp2.2\GiveMe.pdb
+C:\dev\GiveMe\obj\Debug\netcoreapp2.2\GiveMe.csprojAssemblyReference.cache
+C:\dev\GiveMe\obj\Debug\netcoreapp2.2\GiveMe.csproj.CoreCompileInputs.cache
+C:\dev\GiveMe\obj\Debug\netcoreapp2.2\GiveMe.AssemblyInfoInputs.cache
+C:\dev\GiveMe\obj\Debug\netcoreapp2.2\GiveMe.AssemblyInfo.cs
+C:\dev\GiveMe\obj\Debug\netcoreapp2.2\GiveMe.dll
+C:\dev\GiveMe\obj\Debug\netcoreapp2.2\GiveMe.pdb

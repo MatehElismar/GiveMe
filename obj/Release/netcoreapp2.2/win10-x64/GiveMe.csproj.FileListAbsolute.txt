@@ -1,0 +1,14 @@
+C:\dev\GiveMe\bin\Release\netcoreapp2.2\win10-x64\hostpolicy.dll
+C:\dev\GiveMe\bin\Release\netcoreapp2.2\win10-x64\hostfxr.dll
+C:\dev\GiveMe\bin\Release\netcoreapp2.2\win10-x64\GiveMe.exe
+C:\dev\GiveMe\bin\Release\netcoreapp2.2\win10-x64\GiveMe.deps.json
+C:\dev\GiveMe\bin\Release\netcoreapp2.2\win10-x64\GiveMe.runtimeconfig.json
+C:\dev\GiveMe\bin\Release\netcoreapp2.2\win10-x64\GiveMe.runtimeconfig.dev.json
+C:\dev\GiveMe\bin\Release\netcoreapp2.2\win10-x64\GiveMe.dll
+C:\dev\GiveMe\bin\Release\netcoreapp2.2\win10-x64\GiveMe.pdb
+C:\dev\GiveMe\obj\Release\netcoreapp2.2\win10-x64\GiveMe.csprojAssemblyReference.cache
+C:\dev\GiveMe\obj\Release\netcoreapp2.2\win10-x64\GiveMe.csproj.CoreCompileInputs.cache
+C:\dev\GiveMe\obj\Release\netcoreapp2.2\win10-x64\GiveMe.AssemblyInfoInputs.cache
+C:\dev\GiveMe\obj\Release\netcoreapp2.2\win10-x64\GiveMe.AssemblyInfo.cs
+C:\dev\GiveMe\obj\Release\netcoreapp2.2\win10-x64\GiveMe.dll
+C:\dev\GiveMe\obj\Release\netcoreapp2.2\win10-x64\GiveMe.pdb
