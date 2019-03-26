@@ -1,14 +1,13 @@
-     
-
 //Declaracion de variables
 int a, b, suma
+
 
 //Asignacion de valores
 a = 4
 b = 5
-
 //Operacion aritmetica y asignacion de valores
 suma = a + b
 
 //Mostrar un valor por consola
-show(suma)
+show -> suma
+"34yes"

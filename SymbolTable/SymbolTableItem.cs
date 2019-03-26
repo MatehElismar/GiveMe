@@ -2,15 +2,24 @@ using System;
 
 namespace GiveMe
 {
-    class SymbolTableItem
+    public class SymbolTableItem
     {
-        public int Line{ get; set; }
-        public int Column{ get; set; }
-        public string Lexema{ get; set; }
-        public Consts.IDTYPES IDType{ get; set; }
-        public SymbolTableItem()
-        {
+        public int Line{ get; set; } 
 
+        public TokenType TokenType{ get; set; }
+        public string Lexema{ get; set; } 
+
+        public string Info{ get; set; }
+        public SymbolTableItem()
+        { 
+        }
+
+        public SymbolTableItem(int Line, TokenType TokenType, string Lexema, string Info = "")
+        { 
+            this.Line = Line;
+            this.TokenType = TokenType;
+            this.Lexema = Lexema;
+            this.Info = Info;
         }
     }
 }

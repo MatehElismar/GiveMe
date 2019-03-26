@@ -17,21 +17,26 @@ namespace GiveMe
 
 
             // Instanciamos un objeto Reader.
-            var reader = new Lexico.Reader();
+            var lexico = new Lexico();
             foreach (var arg in args)
             {
                 switch (arg.ToLower())
                 {
                     case "--version": C.WriteLine(Consts.VERSION); return; 
-                    default: reader.File = arg; break;
+                    default: lexico.File = arg; break;
                 }    
             }
 
             // Luego de haber escogido la configuracion deseada por el usuario a traves de los parametros leemos el archivo.
-            reader.Read();
-            reader.ShowProcessedCode();
-            reader.DeleteSpacesAndComments();
-            reader.ShowProcessedCode();
+            lexico.Read();
+            // lexico.ShowProcessedCode();
+            lexico.DeleteSpacesAndComments();
+            // lexico.ShowProcessedCode();
+            lexico.GenerateTokenTree();
+            // generateToken();
+                // lexico.matchWord)();
+                // lexico.addToSymbolTable();
+                // lexico.getToken();
         }
         static void Main(string[] args)
         { 
