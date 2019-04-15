@@ -49,7 +49,7 @@ namespace GiveMe
                     return this.OriginalCode; 
                 }
             }
-            else C.WriteLine("No such file or directory\nfatal error: no input files\ncompilation terminated");
+            else C.WriteLine("No such file or directory {0}\nfatal error: no input files\ncompilation terminated", this.File);
             return null;
         }
 
@@ -210,17 +210,11 @@ namespace GiveMe
                     { 
                         // C.WriteLine("SYMBOL Found -> (,)");
                         tokens.Add(new Token(TokenType.SYMBOL, ","));
-                    }
-                    
-                    tokens.Add(new Token(TokenType.SYMBOL, "END"));
-
-
-
-                    
+                    }   
                 }
-            }
-            SymbolTable.ToString();
-            C.WriteLine("\n\n" + Token.GetTokenString(tokens));
+                // se acaba la linea / este token no aparecera en la representacion grafica (END = \n)
+                tokens.Add(new Token(TokenType.SYMBOL, "END"));
+            } 
 
             return tokens;
         }

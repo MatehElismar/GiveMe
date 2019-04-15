@@ -32,6 +32,9 @@ namespace GiveMe
 
         public static string GetTokenString(List<Token> tokens)
         {
+            Console.WriteLine("\n\n      FLUJO DE TOKENS      ");
+            Console.WriteLine("========================");
+
             var tokenString = "";
             foreach (var token in tokens)
             {

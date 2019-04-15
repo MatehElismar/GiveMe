@@ -15,16 +15,20 @@ namespace GiveMe
 
         new public static void ToString()
         { C.WriteLine("           TABLA DE SIMBOLOS               ");
-            C.WriteLine("Linea       Tipo                Lexema");
+            C.WriteLine("POS Linea       Tipo          Lexema");
             C.WriteLine("======================================");
             
+            var count = -1;
             foreach (var item in Items)
             {
+                count++;
                 C.CursorLeft = 0;
+                C.Write(count);
+                C.CursorLeft = 6;
                 C.Write(item.Line);
                 C.CursorLeft = 11;
                 C.Write(item.TokenType);
-                C.CursorLeft = 23;
+                C.CursorLeft = 30;
                 C.Write(item.Lexema);
                 C.CursorTop++;
             }
