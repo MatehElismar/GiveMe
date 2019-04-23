@@ -120,7 +120,7 @@ namespace GiveMe
                     if(word[word.Length -1] == ','){ 
                         // Esto identifica las comas que hay al final de una palabra ex: hola, perro,
                         //las elimina para que se pueda reconocer su tipoDeLexema
-                        // y sse marca para agregarse a la lista despuesde agregar la palabra!
+                        // y se marca para agregarse a la lista despues de agregar la palabra!
                         word = word.Remove(word.Length -1);
                         comma = true;  
                         //Simbolo lo encontrado despues de la <word>!! ( , ) 
